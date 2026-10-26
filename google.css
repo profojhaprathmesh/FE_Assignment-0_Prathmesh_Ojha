@@ -1,5 +1,5 @@
 * {
-  font-family: "Google Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 html,
@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  padding: 14px 14px;
+  padding: 0.875rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +71,7 @@ nav {
   align-items: center;
   background-color: #007bff;
   color: #ffffff;
-  font-family: "Google Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -156,11 +156,12 @@ main form {
   cursor: pointer;
 }
 
-center {
+.search-buttons {
   margin-top: 18px;
+  text-align: center;
 }
 
-center button {
+.search-buttons button {
   margin: 11px 6px;
   margin-right: 3px;
   padding: 10px 16px;
@@ -172,13 +173,13 @@ center button {
   color: #3c4043;
 }
 
-center button:hover {
+.search-buttons button:hover {
   border-color: #dadce0; 
   color: #202124;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-center button:focus {
+.search-buttons button:focus {
   border-color: blue;
   color: #202124;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);

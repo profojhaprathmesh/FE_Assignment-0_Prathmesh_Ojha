@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
     <link rel="stylesheet" href="./google.css" />
-    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -23,13 +23,12 @@
           <a id="gmail"> Gmail </a>
           <a id="images"> Images </a>
           <a id="menu">
-            <image
+            <img
               src="https://ssl.gstatic.com/gb/images/bar/al-icon.png"
               alt=""
               height="24"
               width="24"
-              style="border: none; display: none \9"
-            ></image>
+            />
           </a>
           <a id="profile">
             <div class="profile-icon">P</div>
@@ -136,10 +135,10 @@
               </div>
             </div>
           </section>
-          <center>
+          <div class="search-buttons">
             <button id="search" onclick="">Google Search</button>
             <button id="lucky" onclick="">I'm Feeling Lucky</button>
-          </center>
+          </div>
           <section id="lang">
             <a style="color: black; text-decoration: none; cursor: text;">Google offered in:</a>
             &nbsp;<a>हिन्दी</a>&nbsp;<a>বাংলা</a>&nbsp;<a>తెలుగు</a>
@@ -166,6 +165,5 @@
         </section>
       </footer>
     </div>
-    <script src="./google.js"></script>
   </body>
 </html>
